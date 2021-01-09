@@ -1,20 +1,42 @@
-import React from "react"
-import {Link} from "react-router-dom"
+import React from 'react';
+import { makeStyles } from '@material-ui/core/styles';
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+import IconButton from '@material-ui/core/IconButton';
+import MenuIcon from '@material-ui/icons/Menu';
+import AccountCircle from '@material-ui/icons/AccountCircle';
+import FormGroup from '@material-ui/core/FormGroup';
+import MenuItem from '@material-ui/core/MenuItem';
+import Menu from '@material-ui/core/Menu';
 
-class Navbar extends React.Component{
-    render(){
-        return(
-            <div class="shadow p-2 bg-white rounded">
-                <Link to="/feed"><img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="Logo" style={{width:"30px",marginRight:"30px"}} /></Link>
-                <input placeholder="Search" style={{marginTop:"5px",width:"400px"}}/>
-                <Link to="/mynetwork"><i class="fas fa-user-friends text-muted" style={{marginLeft:"230px",fontSize:"large"}}></i></Link>
-                <Link to="/jobs"><i class="fas fa-briefcase text-muted" style={{marginLeft:"70px",fontSize:"large"}}></i></Link>
-                <Link to="/messaging"><i class="fas fa-comment-dots text-muted" style={{marginLeft:"70px",fontSize:"large"}}></i></Link>
-                <Link to="/notification"><i class="fas fa-bell text-muted" style={{marginLeft:"70px",fontSize:"large"}}></i></Link>
-                <Link to="/profile"><i class="fas fa-user-circle text-muted" style={{marginLeft:"70px",fontSize:"large"}}></i></Link>
+const useStyles = makeStyles((theme) => ({
+  root: {
+    flexGrow: 1,
+  },
+  menuButton: {
+    marginRight: theme.spacing(2),
+  },
+}));
+
+export default function MenuAppBar() {
+  const classes = useStyles();
+
+  return (
+    <div className={classes.root}>
+      <AppBar style={{backgroundColor:"white"}} position="static">
+        <Toolbar>
+          <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
+          <i style={{color:"black",fontSize:"x-large"}}  class="fas fa-bars"></i>
+          </IconButton>
+          <Typography variant="h6" className={classes.title}>
+            <img width="200px" src="https://therealschool.in/public/static/website/realschool/img/logo.png" />
+          </Typography>
+            <div>
+                <AccountCircle style={{color:"black",position:"relative",left:"300px"}} />
             </div>
-        )
-    }
+        </Toolbar>
+      </AppBar>
+    </div>
+  );
 }
-
-export default Navbar
