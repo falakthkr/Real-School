@@ -28,11 +28,11 @@ export default function MenuAppBar() {
 			<AppBar style={{ backgroundColor: 'white' }} position="static">
 				<Toolbar>
 					<IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-						<i style={{ color: 'black', fontSize: 'x-large' }} class="fas fa-bars" />
+						<i height="24px" width="24px" style={{ color: 'black' }} class="fas fa-bars" />
 					</IconButton>
 					<Typography variant="h6" className={classes.title}>
 						<img
-                            style={{marginLeft:"50px",marginRight:"350px"}}
+                            style={{position:"relative",left:"70px",marginRight:"350px"}}
                             alt = "Real School Logo"
 							width="200px"
 							src="https://therealschool.in/public/static/website/realschool/img/logo.png"
