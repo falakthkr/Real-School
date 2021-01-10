@@ -38,20 +38,20 @@ export default function MenuAppBar() {
 							src="https://therealschool.in/public/static/website/realschool/img/logo.png"
 						/>
 					</Typography>
-                    <Typography style={{color:"black",fontFamily:'Schoolbell',fontSize:"large",fontWeight:"bold",marginLeft:"50px"}}>
+                    <Typography style={{color:"black",fontFamily:'Grandstander',fontSize:"large",fontWeight:"bold",marginLeft:"50px"}}>
                         Masterclasses
                     </Typography>
-                    <Typography style={{color:"black",fontFamily:'Schoolbell',fontSize:"large",fontWeight:"bold",marginLeft:"50px"}}>
+                    <Typography style={{color:"black",fontFamily:'Grandstander',fontSize:"large",fontWeight:"bold",marginLeft:"50px"}}>
                         Programs
                     </Typography>
-                    <Typography style={{color:"black",fontFamily:'Schoolbell',fontSize:"large",fontWeight:"bold",marginLeft:"50px"}}>
+                    <Typography style={{color:"black",fontFamily:'Grandstander',fontSize:"large",fontWeight:"bold",marginLeft:"50px"}}>
                         Challenges
                     </Typography>
-                    <Typography style={{color:"black",fontFamily:'Schoolbell',fontSize:"large",fontWeight:"bold",marginLeft:"50px"}}>
+                    <Typography style={{color:"black",fontFamily:'Grandstander',fontSize:"large",fontWeight:"bold",marginLeft:"50px"}}>
                         Library
                     </Typography>
 					<div style={{border:"2px solid black",marginLeft:"50px",borderRadius:"40px"}}>
-                        <Typography style={{color:"black",fontFamily:'Schoolbell',fontSize:"large",fontWeight:"bold"}}>
+                        <Typography style={{color:"black",fontFamily:'Grandstander',fontSize:"large",fontWeight:"bold"}}>
                             <AccountCircle className={classes.large} style={{ color: 'lightgreen' }} /><span style={{marginRight:"30px"}}>INR 200</span>
                         </Typography>
 					</div>
