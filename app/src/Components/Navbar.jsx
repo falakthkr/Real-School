@@ -25,7 +25,7 @@ export default function MenuAppBar() {
 
 	return (
 		<div className={classes.root}>
-			<AppBar style={{ backgroundColor: 'white' }} position="static">
+			<AppBar style={{ backgroundColor: 'white',position:"sticky" }}>
 				<Toolbar>
 					<IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
 						<i height="24px" width="24px" style={{ color: 'black' }} class="fas fa-bars" />

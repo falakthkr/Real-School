@@ -16,9 +16,9 @@ export default function Footer() {
 
 	return (
 		<div className={classes.root}>
-			<AppBar style={{ padding: '10px', backgroundColor: '#635D5D' }} position="static">
-				<Toolbar>
-					<Typography style={{ marginLeft: '50px' }} variant="h6" className={classes.title}>
+			<AppBar style={{backgroundColor: '#635D5D' }} position="static">
+				<Toolbar style={{marginTop:"10px",position: 'relative',left:"165px"}}>
+					<Typography variant="h6" className={classes.title}>
 						<img
 							align="left"
 							alt="Real School Logo"
@@ -74,7 +74,7 @@ export default function Footer() {
 							<i class="text-white far fa-envelope" /> info@ufaber.com
 						</p>
 					</Typography>
-					<div style={{ marginLeft: '100px' }}>
+					<div style={{ marginLeft: '50px' }}>
 						<p
 							style={{
 								textAlign: 'left',
@@ -120,7 +120,7 @@ export default function Footer() {
 							Become an Affiliate
 						</p>
 					</div>
-					<div style={{ marginLeft: '100px' }}>
+					<div style={{ marginLeft: '50px' }}>
 						<p
 							style={{
 								fontSize: '14px',
@@ -166,7 +166,7 @@ export default function Footer() {
 							Privacy Policy
 						</p>
 					</div>
-					<div style={{ marginLeft: '100px' }}>
+					<div style={{ marginLeft: '50px' }}>
 						<p><i class="text-white fab fa-facebook" style={{fontSize:"x-large",marginLeft:"10px"}}></i>
 						<i class="text-white fab fa-instagram" style={{fontSize:"x-large",marginLeft:"10px"}}></i>
 						<i class="text-white fab fa-youtube" style={{fontSize:"x-large",marginLeft:"10px"}}></i></p>
