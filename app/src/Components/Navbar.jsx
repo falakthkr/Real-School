@@ -7,9 +7,6 @@ import IconButton from '@material-ui/core/IconButton';
 import AccountCircle from '@material-ui/icons/AccountCircle';
 
 const useStyles = makeStyles((theme) => ({
-	root: {
-		flexGrow: 1
-	},
 	menuButton: {
         marginRight: theme.spacing(2),
         marginLeft: theme.spacing(3)
