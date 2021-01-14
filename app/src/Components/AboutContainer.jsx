@@ -560,7 +560,7 @@ export default class AboutContainer extends React.Component {
 										STEP 1
 									</p>
 									<p style={{ fontSize: '14px', color: 'black', fontFamily: 'Montserrat' }}>
-										<span style={{ fontWeight: '600' }}>Book your Class</span>
+										<span style={{ fontWeight: '600' }}>BOOK YOUR CLASS</span>
 										<br />Go to Calendar & choose from the wide range of Masterclasses.
 									</p>
 								</div>
@@ -588,11 +588,11 @@ export default class AboutContainer extends React.Component {
 											marginTop: '10px'
 										}}
 									>
-										STEP 1
+										STEP 2
 									</p>
 									<p style={{ fontSize: '14px', color: 'black', fontFamily: 'Montserrat' }}>
-										<span style={{ fontWeight: '600' }}>Book your Class</span>
-										<br />Go to Calendar & choose from the wide range of Masterclasses.
+										<span style={{ fontWeight: '600' }}>GET PREPARED</span>
+										<br />Prepare for the class by following the instructions in the Overview.
 									</p>
 								</div>
 							</div>
@@ -619,11 +619,11 @@ export default class AboutContainer extends React.Component {
 											marginTop: '10px'
 										}}
 									>
-										STEP 1
+										STEP 3
 									</p>
 									<p style={{ fontSize: '14px', color: 'black', fontFamily: 'Montserrat' }}>
-										<span style={{ fontWeight: '600' }}>Book your Class</span>
-										<br />Go to Calendar & choose from the wide range of Masterclasses.
+										<span style={{ fontWeight: '600' }}>SET UP FOR CLASS</span>
+										<br />Check the device and app requirements at least 15 minutes prior to start time.
 									</p>
 								</div>
 							</div>
@@ -650,11 +650,11 @@ export default class AboutContainer extends React.Component {
 											marginTop: '10px'
 										}}
 									>
-										STEP 1
+										STEP 4
 									</p>
 									<p style={{ fontSize: '14px', color: 'black', fontFamily: 'Montserrat' }}>
-										<span style={{ fontWeight: '600' }}>Book your Class</span>
-										<br />Go to Calendar & choose from the wide range of Masterclasses.
+										<span style={{ fontWeight: '600' }}>JOIN CLASS</span>
+										<br />Open link sent on your registered mobile or email on the device
 									</p>
 								</div>
 							</div>
