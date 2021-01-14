@@ -194,7 +194,7 @@ export default function TripContainer() {
 											border: '1px solid #707070',
 											borderRadius: '20px',
 											textAlign: 'center',
-											fontFamily: 'Grandstander',
+											fontFamily: 'Montserrat',
 											fontSize: '14px',
 											width: '102px',
 											height: '35px',
@@ -202,7 +202,18 @@ export default function TripContainer() {
 										}}
 									>
 										<span style={{ color: '#515151', position: 'relative', top: '6px' }}>
-											Explorer
+											10.30 AM
+											<p
+												style={{
+													marginTop: '7px',
+													color: '#8AB7C0',
+													fontSize: '12px',
+													textAlign: 'left',
+													fontFamily: 'Montserrat'
+												}}
+											>
+												2 / 5 Seats left!
+											</p>
 										</span>
 									</div>
 									<div
@@ -219,9 +230,7 @@ export default function TripContainer() {
 											topMargin: '20px'
 										}}
 									>
-										<span style={{ color: '#515151', position: 'relative', top: '6px' }}>
-											5 PM
-										</span>
+										<span style={{ color: '#515151', position: 'relative', top: '6px' }}>5 PM</span>
 									</div>
 									<div
 										style={{
@@ -239,6 +248,17 @@ export default function TripContainer() {
 									>
 										<span style={{ color: '#515151', position: 'relative', top: '6px' }}>
 											6.30 PM
+											<p
+												style={{
+													marginTop: '7px',
+													color: '#8AB7C0',
+													fontSize: '12px',
+													textAlign: 'left',
+													fontFamily: 'Montserrat'
+												}}
+											>
+												1 / 5 Seats left!
+											</p>
 										</span>
 									</div>
 								</div>
