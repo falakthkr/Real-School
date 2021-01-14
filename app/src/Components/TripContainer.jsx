@@ -283,6 +283,7 @@ export default function TripContainer() {
 									</div>
 								</div>
 								<br />
+								<br />
 								<div>
 									<span
 										style={{
@@ -295,6 +296,87 @@ export default function TripContainer() {
 									>
 										Class Fee
 									</span>
+									<div style={{ display: 'flex', flexDirection: 'row' }}>
+										<div
+											style={{
+												marginRight: '15px',
+												backgroundColor: 'white',
+												borderRadius: '5px',
+												fontFamily: 'Montserrat',
+												width: '160px',
+												height: '45px',
+												boxShadow: '2px 2px 0px #0000001A',
+												topMargin: '20px',
+												textAlign: 'center'
+											}}
+										>
+											<p>
+												<span
+													style={{
+														color: '#6997A1',
+														position: 'relative',
+														top: '6px',
+														fontSize: '14px',
+														textDecoration: 'line-through'
+													}}
+												>
+													INR 120
+												</span>
+												<span
+													style={{
+														color: 'black',
+														position: 'relative',
+														top: '7px',
+														fontSize: '18px',
+														marginLeft: '3px',
+														fontWeight: 'bold'
+													}}
+												>
+													INR 60
+												</span>
+											</p>
+										</div>
+										<div>
+											<p style={{marginLeft:"10px",textDecoration:"underline",color:"#FF3A58",fontSize:"15px",fontWeight:"600",marginTop:"12px"}}>Earn 100+ Points</p>
+										</div>
+									</div>
+									<br />
+									<div style={{ display: 'flex', flexDirection: 'row' }}>
+										<div
+											style={{
+												marginRight: '15px',
+												backgroundColor: '#FF3A58',
+												borderRadius: '5px',
+												width: '350px',
+												height: '45px',
+												border : '1px solid #FF3A58',
+												boxShadow: '2px 2px 0px #0000001A',
+												topMargin: '20px',
+												textAlign: 'center'
+											}}
+										>
+											<p style={{color:"white",fontFamily:'Grandstander',fontSize:"16px",marginTop:"10px",fontWeight:"normal"}}>
+												Book this Class for Free
+											</p>
+										</div>
+										<div
+											style={{
+												marginRight: '15px',
+												backgroundColor: 'white',
+												borderRadius: '5px',
+												width: '65px',
+												height: '45px',
+												border : '1px solid #FF3A58',
+												boxShadow: '2px 2px 0px #0000001A',
+												topMargin: '20px',
+												textAlign: 'center'
+											}}
+										>
+											<p style={{color:"#FF3A58",fontFamily:'Grandstander',fontSize:"14px",marginTop:"13px",fontWeight:"normal"}}>
+												Share
+											</p>
+										</div>
+									</div>
 								</div>
 							</Grid>
 						</Grid>
