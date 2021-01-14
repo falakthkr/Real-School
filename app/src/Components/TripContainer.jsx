@@ -5,6 +5,8 @@ import Paper from '@material-ui/core/Paper';
 import TripImage from '../Resources/trip.png';
 import ThumbsUp from '../Resources/like.png';
 import AppImage from '../Resources/app.png';
+import MobileContainer from './MobileContainer';
+import AboutContainer from './AboutContainer';
 
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -262,6 +264,8 @@ export default function TripContainer() {
 						</Grid>
 					</Grid>
 				</Grid>
+				<AboutContainer />
+				<MobileContainer />
 			</Paper>
 		</div>
 	);
