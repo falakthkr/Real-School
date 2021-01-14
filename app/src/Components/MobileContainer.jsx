@@ -9,9 +9,9 @@ export default class MobileContainer extends React.Component {
     }
     render(){
         return(
-            <div>
-                <h1>This is the "Mobile" Container</h1>
-            </div>
+            <div align="left" style={{ backgroundColor: 'white', marginTop: '10px' }}>
+				
+			</div>
         )
     }
 }
