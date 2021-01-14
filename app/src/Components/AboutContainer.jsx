@@ -660,7 +660,6 @@ export default class AboutContainer extends React.Component {
 							</div>
 						</div>
 					</div>
-                <hr style={{width:"1110px"}} />
 				</div>
 			</div>
 		);

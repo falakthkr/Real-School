@@ -7,8 +7,8 @@ import CopyrightFooter from "./CopyrightFooter"
 export default function Footer() {
 
 	return (
-		<div>
-			<AppBar style={{backgroundColor: '#635D5D' }} position="static">
+		<div>		
+			<AppBar style={{backgroundColor: '#635D5D',height:"307px",position:"relative"}}>
 				<Toolbar style={{marginTop:"10px",position: 'relative',left:"165px"}}>
 					<Typography variant="h6">
 						<img

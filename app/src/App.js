@@ -16,7 +16,6 @@ function App() {
       <br />
       <AboutContainer />
       <MobileContainer />
-      <Footer />
     </div>
   );
 }
