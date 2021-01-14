@@ -220,6 +220,17 @@ export default function TripContainer() {
 										>
 											<span style={{ color: '#515151', position: 'relative', top: '6px' }}>
 												10.30 AM
+												<p
+													style={{
+														marginTop: '7px',
+														color: '#8AB7C0',
+														fontSize: '12px',
+														textAlign: 'left',
+														fontFamily: 'Montserrat'
+													}}
+												>
+													2 / 5 Seats left!
+												</p>
 											</span>
 										</div>
 										<div
@@ -256,9 +267,34 @@ export default function TripContainer() {
 										>
 											<span style={{ color: '#515151', position: 'relative', top: '6px' }}>
 												10.30 AM
+												<p
+													style={{
+														marginTop: '7px',
+														color: '#8AB7C0',
+														fontSize: '12px',
+														textAlign: 'left',
+														fontFamily: 'Montserrat'
+													}}
+												>
+													1 / 5 Seats left!
+												</p>
 											</span>
 										</div>
 									</div>
+								</div>
+								<br />
+								<div>
+									<span
+										style={{
+											color: '#A9B7B9',
+											fontSize: '14px',
+											textAlign: '14px',
+											fontWeight: '18px',
+											fontFamily: 'Montserrat'
+										}}
+									>
+										Class Fee
+									</span>
 								</div>
 							</Grid>
 						</Grid>
