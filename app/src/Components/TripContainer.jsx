@@ -69,7 +69,7 @@ export default function TripContainer() {
 					</Grid>
 					<Grid item xs={6}>
 						<Grid container>
-							
+							<div width="150px" height="50px" style={{border:"1px solid block",backgroundColor:"blue"}} />
 						</Grid>
 					</Grid>
 				</Grid>
