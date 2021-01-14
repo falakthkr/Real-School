@@ -6,7 +6,7 @@ import AppImage from '../Resources/app.png';
 
 export default function TripContainer() {
 	return (
-		<div width="1440px" height="750px">
+		<div>
 			<Grid container>
 				<Grid item xs={6}>
 					<Grid
