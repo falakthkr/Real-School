@@ -534,24 +534,133 @@ export default class AboutContainer extends React.Component {
 						</span>
 						<br />
 						<div style={{ display: 'flex', flexDirection: 'row' }}>
-							<div class="card" style={{ width: '18rem', margin: '10px' }}>
-								<img src={Image} class="card-img-top" alt="..." />
+							<div
+								class="card"
+								style={{
+									width: '255px',
+									height: '258px',
+									margin: '10px',
+									backgroundColor: '#F6FEFF',
+									boxShadow: '3px 3px 0px #0000001A',
+									borderRadius: '5px',
+									textAlign: 'center'
+								}}
+							>
 								<div class="card-body">
-									<h5
-										class="card-title"
-										style={{ fontFamily: 'Montserrat', fontSize: '24px', color: '#474747' }}
+									<img src={deviceImage} alt="Device Image" style={{ marginTop: '25px' }} />
+									<p
+										style={{
+											color: '#EE3F5A',
+											fontSize: '15px',
+											fontFamily: 'Montserrat',
+											fontWeight: '600',
+											marginTop: '10px'
+										}}
 									>
-										#3 Words in<br />French<a
-											style={{ position: 'relative', left: '130px' }}
-											href="#"
-										>
-											<i class="fas fa-arrow-right" style={{ color: '#474747' }} />
-										</a>
-									</h5>
+										STEP 1
+									</p>
+									<p style={{ fontSize: '14px', color: 'black', fontFamily: 'Montserrat' }}>
+										<span style={{ fontWeight: '600' }}>Book your Class</span>
+										<br />Go to Calendar & choose from the wide range of Masterclasses.
+									</p>
+								</div>
+							</div>
+							<div
+								class="card"
+								style={{
+									width: '255px',
+									height: '258px',
+									margin: '10px',
+									backgroundColor: '#F6FEFF',
+									boxShadow: '3px 3px 0px #0000001A',
+									borderRadius: '5px',
+									textAlign: 'center'
+								}}
+							>
+								<div class="card-body">
+									<img src={deviceImage} alt="Device Image" style={{ marginTop: '25px' }} />
+									<p
+										style={{
+											color: '#EE3F5A',
+											fontSize: '15px',
+											fontFamily: 'Montserrat',
+											fontWeight: '600',
+											marginTop: '10px'
+										}}
+									>
+										STEP 1
+									</p>
+									<p style={{ fontSize: '14px', color: 'black', fontFamily: 'Montserrat' }}>
+										<span style={{ fontWeight: '600' }}>Book your Class</span>
+										<br />Go to Calendar & choose from the wide range of Masterclasses.
+									</p>
+								</div>
+							</div>
+							<div
+								class="card"
+								style={{
+									width: '255px',
+									height: '258px',
+									margin: '10px',
+									backgroundColor: '#F6FEFF',
+									boxShadow: '3px 3px 0px #0000001A',
+									borderRadius: '5px',
+									textAlign: 'center'
+								}}
+							>
+								<div class="card-body">
+									<img src={deviceImage} alt="Device Image" style={{ marginTop: '25px' }} />
+									<p
+										style={{
+											color: '#EE3F5A',
+											fontSize: '15px',
+											fontFamily: 'Montserrat',
+											fontWeight: '600',
+											marginTop: '10px'
+										}}
+									>
+										STEP 1
+									</p>
+									<p style={{ fontSize: '14px', color: 'black', fontFamily: 'Montserrat' }}>
+										<span style={{ fontWeight: '600' }}>Book your Class</span>
+										<br />Go to Calendar & choose from the wide range of Masterclasses.
+									</p>
+								</div>
+							</div>
+							<div
+								class="card"
+								style={{
+									width: '255px',
+									height: '258px',
+									margin: '10px',
+									backgroundColor: '#F6FEFF',
+									boxShadow: '3px 3px 0px #0000001A',
+									borderRadius: '5px',
+									textAlign: 'center'
+								}}
+							>
+								<div class="card-body">
+									<img src={deviceImage} alt="Device Image" style={{ marginTop: '25px' }} />
+									<p
+										style={{
+											color: '#EE3F5A',
+											fontSize: '15px',
+											fontFamily: 'Montserrat',
+											fontWeight: '600',
+											marginTop: '10px'
+										}}
+									>
+										STEP 1
+									</p>
+									<p style={{ fontSize: '14px', color: 'black', fontFamily: 'Montserrat' }}>
+										<span style={{ fontWeight: '600' }}>Book your Class</span>
+										<br />Go to Calendar & choose from the wide range of Masterclasses.
+									</p>
 								</div>
 							</div>
 						</div>
 					</div>
+                <hr style={{width:"1110px"}} />
 				</div>
 			</div>
 		);
